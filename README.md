@@ -9,32 +9,18 @@ Bootcamp 23 Online by GoIt
 
 ![Screenshot](./assets/screenshot.png)
 
-[Task List](https://):
+[Task List](https://docs.google.com/document/d/1vkc0exHGKOHhv6TUe5bcE2eqJ5-seUrDjefME9gjgec/edit):
 
 ```
-1. Background display (phone, tablet, desktop)
-2. Logo display (phone, tablet, desktop)
-3. Displaying the title (phone, tablet, desktop)
-4. Layout and styles of the card container (phone, tablet, desktop)
-5. Markup of the search bar
-6. Search string logic by event name
-7. Marking of the country selection line
-8. Dropdown logic with country selection (to start, see information about which countries the API returns)
-9. The logic of loading and displaying events by name
-10. Animation of displaying events during the first visit to the main page
-11. Layout and styles of one event card
-12. The logic of loading events when the page is first loaded
-13. Markup and pagination styles
-14. Pagination logic, switching pages
-15. Animation of the movement of the selected page in pagination
-16. Markup and footer styles
-17. Modal appearance animation
-18. Markup and modal styles of a specific event
-19. Darkening and blurring of the background when the modal is open
-20. The logic of loading and displaying event data in open mode
-21. Placement of event links in ticket purchase buttons
-22. The logic of loading and displaying events after clicking the "More from this author" button
-23. The logic of closing the modal when clicking on the cross and beyond it
+Development of a one-page site for the company HellEN.
+
+- The layout is adaptive, breakpoints 480px, 768px, 1366px. For the mobile version of the site, the layout is responsive. The site must be viewed correctly in all possible browser window sizes and devices, starting with a width of 320px, in both portrait and landscape orientations.
+- Layout is valid (https://validator.w3.org/, https://validator.w3.org/unicorn/)
+- Ensure compliance with HTML5 semantics.
+- To ensure the optimization of the sizes of vector and raster graphics
+- Provide support for displaying pictures for retina screens
+- Optimize image loading.
+- Add page favicon display.
 ```
 
 Technologies used to implement the project:
@@ -47,17 +33,6 @@ Technologies used to implement the project:
 - SASS
 - CSS grid
 - JS
-
-Project implemented:
-
-- all items according to:
-  [TASK LIST](https://docs.google.com/spreadsheets/d/19zS365fIf0gNfE8-Q-ruMeYiI7GVlrtNLl45MvLXDPs/edit#gid=0)
-
-- additionally:
-  - customize scroll
-  - loader
-  - smooth scroll to the top
-  - dark/light theme toggle
 
 ## Development team:
 
