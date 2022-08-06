@@ -1,101 +1,111 @@
-**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**
+# Team project "Hellish English"
 
-# Parcel template
+completed after finished the HTML+CSS Module course Full Stack Developer Bootcamp 23
+Online by GoIt
 
-Этот проект был создан при помощи Parcel. Для знакомства и настройки
-дополнительных возможностей [обратись к документации](https://parceljs.org/).
+##
 
-## Подготовка нового проекта
+[Figma](<https://www.figma.com/file/FNysc9PLjxJA9IeWBXlEIU/Hellish-English?node-id=0%3A1>)
 
-1. Убедись что на компьютере установлена LTS-версия Node.js.
-   [Скачай и установи](https://nodejs.org/en/) её если необходимо.
-2. Склонируй этот репозиторий.
-3. Измени имя папки с `parcel-project-template` на имя своего проекта.
-4. Создай новый пустой репозиторий на GitHub.
-5. Открой проект в VSCode, запусти терминал и свяжи проект с GitHub-репозиторием
-   [по инструкции](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#changing-a-remote-repositorys-url).
-6. Установи зависимости проекта в терминале командой `npm install` .
-7. Запусти режим разработки, выполнив команду `npm start`.
-8. Перейди в браузере по адресу [http://localhost:1234](http://localhost:1234).
-   Эта страница будет автоматически перезагружаться после сохранения изменений в
-   файлах проекта.
+![Screenshot](./assets/screenshot.png)
 
-## Файлы и папки
+[Task List](https://docs.google.com/spreadsheets/d/19zS365fIf0gNfE8-Q-ruMeYiI7GVlrtNLl45MvLXDPs/edit#gid=0):
 
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  файлы стилей страниц. Например, для `index.html` файл стилей называется
-  `index.scss`.
-- Изображения добавляй в папку `src/images`. Сборщик оптимизирует их, но только
-  при деплое продакшн версии проекта. Все это происходит в облаке, чтобы не
-  нагружать твой компьютер, так как на слабых машинах это может занять много
-  времени.
-
-## Деплой
-
-Для настройки деплоя проекта необходимо выполнить несколько дополнительных шагов
-по настройке твоего репозитория. Зайди во вкладку `Settings` и в подсекции
-`Actions` выбери выбери пункт `General`.
-
-![GitHub actions settings](./assets/actions-config-step-1.png)
-
-Пролистай страницу до последней секции, в которой убедись что выбраны опции как
-на следующем изображении и нажми `Save`. Без этих настроек у сборки будет
-недостаточно прав для автоматизации процесса деплоя.
-
-![GitHub actions settings](./assets/actions-config-step-2.png)
-
-Продакшн версия проекта будет автоматически собираться и деплоиться на GitHub
-Pages, в ветку `gh-pages`, каждый раз когда обновляется ветка `main`. Например,
-после прямого пуша или принятого пул-реквеста. Для этого необходимо в файле
-`package.json` отредактировать поле `homepage` и скрипт `build`, заменив
-`your_username` и `your_repo_name` на свои, и отправить изменения на GitHub.
-
-```json
-"homepage": "https://your_username.github.io/your_repo_name/",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /your_repo_name/"
-},
+```
+1. Background display (phone, tablet, desktop)
+2. Logo display (phone, tablet, desktop)
+3. Displaying the title (phone, tablet, desktop)
+4. Layout and styles of the card container (phone, tablet, desktop)
+5. Markup of the search bar
+6. Search string logic by event name
+7. Marking of the country selection line
+8. Dropdown logic with country selection (to start, see information about which countries the API returns)
+9. The logic of loading and displaying events by name
+10. Animation of displaying events during the first visit to the main page
+11. Layout and styles of one event card
+12. The logic of loading events when the page is first loaded
+13. Markup and pagination styles
+14. Pagination logic, switching pages
+15. Animation of the movement of the selected page in pagination
+16. Markup and footer styles
+17. Modal appearance animation
+18. Markup and modal styles of a specific event
+19. Darkening and blurring of the background when the modal is open
+20. The logic of loading and displaying event data in open mode
+21. Placement of event links in ticket purchase buttons
+22. The logic of loading and displaying events after clicking the "More from this author" button
+23. The logic of closing the modal when clicking on the cross and beyond it
 ```
 
-Далее необходимо зайти в настройки GitHub-репозитория (`Settings` > `Pages`) и
-выставить раздачу продакшн версии файлов из папки `/root` ветки `gh-pages`, если
-это небыло сделано автоматически.
+Technologies used to implement the project:
 
-![GitHub Pages settings](./assets/repo-settings.png)
+- vs code
+- git
+- npm
+- parcel
+- HTML 5
+- SASS
+- CSS grid
+- JS
 
-### Статус деплоя
+Project implemented:
 
-Статус деплоя крайнего коммита отображается иконкой возле его идентификатора.
+- all items according to:
+  [TASK LIST](https://docs.google.com/spreadsheets/d/19zS365fIf0gNfE8-Q-ruMeYiI7GVlrtNLl45MvLXDPs/edit#gid=0)
 
-- **Желтый цвет** - выполняется сборка и деплой проекта.
-- **Зеленый цвет** - деплой завершился успешно.
-- **Красный цвет** - во время линтинга, сборки или деплоя произошла ошибка.
+- additionally:
+  - customize scroll
+  - loader
+  - smooth scroll to the top
+  - dark/light theme toggle
 
-Более детальную информацию о статусе можно посмотреть кликнув по иконке, и в
-выпадающем окне перейти по ссылке `Details`.
+## Development team:
 
-![Deployment status](./assets/status.png)
+[Katherine Dudar](https://github.com/Katherineeeeeeee) (Team-Lead)
 
-### Живая страница
+- background display (phone, tablet, desktop)
+- layout and styles of one event card
+- loader
+- smooth scroll to the top
+- dark/light theme toggle
 
-Через какое-то время, обычно пару минут, живую страницу можно будет посмотреть
-по адресу указанному в отредактированном свойстве `homepage`. Например, вот
-ссылка на живую версию для этого репозитория
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
+[Andrii Klochko](https://github.com/oLORDer) (Scrum Master)
 
-Если открывается пустая страница, убедись что во вкладке `Console` нет ошибок
-связанных с неправильными путями к CSS и JS файлам проекта (**404**). Скорее
-всего у тебя неправильное значение свойства `homepage` или скрипта `build` в
-файле `package.json`.
+- markup and pagination styles
+- pagination logic, switching pages
+- animation of the movement of the selected page in pagination
 
-## Как это работает
+[Denys Dashkevych](https://github.com/MajorPrestige) (Full Stack Dev)
 
-![How it works](./assets/how-it-works.png)
+- search string logic by event name
+- the logic of loading and displaying events by name
+- the logic of loading events when the page is first loaded
+- the logic of loading and displaying event data in open mode
+- the logic of closing the modal when clicking on the cross and beyond it
 
-1. После каждого пуша в ветку `main` GitHub-репозитория, запускается специальный
-   скрипт (GitHub Action) из файла `.github/workflows/deploy.yml`.
-2. Все файлы репозитория копируются на сервер, где проект инициализируется и
-   проходит сборку перед деплоем.
-3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
-   отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
-   скрипта будет указано в чем проблема.
+[Vyacheslav Ushakov](https://github.com/zerkel1991) (Full Stack Dev)
+
+- logo display (phone, tablet, desktop)
+- displaying the title (phone, tablet, desktop)
+- markup of the search bar
+- marking of the country selection line
+- dropdown logic with country selection (to start, see information about which
+  countries the API returns)
+- animation of displaying events during the first visit to the main page
+- markup and footer styles
+
+[Sergii Gulaga](https://github.com/Ry6ens) (Full Stack Dev)
+
+- markup and modal styles of a specific event
+- darkening and blurring of the background when the modal is open
+- the logic of loading and displaying event data in open mode
+- placement of event links in ticket purchase buttons
+- the logic of loading and displaying events after clicking the "More from this
+  author" button
+- the logic of closing the modal when clicking on the cross and beyond it
+- customize scroll
+
+[Maksym Perlovskyi](https://github.com/Maksym150678) (Full Stack Dev)
+
+- Modal appearance animation for team
+- Markup and modal styles for team
