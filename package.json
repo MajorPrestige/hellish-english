@@ -1,11 +1,11 @@
 {
-  "name": "hell-en",
+  "name": "hellish-english",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://majorprestige.github.io/hell-en",
+  "homepage": "https://majorprestige.github.io/hellish-english",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hell-en/"
+    "build": "parcel build src/*.html --public-url /hellish-english/"
   },
   "repository": {
     "type": "git",
