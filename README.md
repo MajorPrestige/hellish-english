@@ -36,7 +36,22 @@ Technologies used to implement the project:
 
 ## Development team:
 
-[Katherine Dudar](https://github.com/Katherineeeeeeee) (Team-Lead)
+[Andrii Klochko](https://github.com/oLORDer) (Team-Lead)
+
+- Create a project repository
+- Create a dev branch
+- Set protection for the master and dev branches, preventing other team members
+  from making changes
+- Create fragment files for components
+- Create a project structure
+- Export the color palette to a variable
+- Add styles for public classes
+- Add basic styles
+- Save the icons and create a sprite.svg
+- Advanteges section
+- How we do section
+
+[Katherine Dudar](https://github.com/Katherineeeeeeee) (Scrum-master)
 
 Problems section
 
@@ -76,31 +91,7 @@ Guarantee section
 - Marker icons should be saved in svg format and implemented as pseudo-elements.
 - Decorative lines should be executed as border list items.
 
-[Andrii Klochko](https://github.com/oLORDer) (Scrum Master)
-
-- Create a project repository
-- Create a dev branch
-- Set protection for the master and dev branches, preventing other team members
-  from making changes
-- Create fragment files for components
-- Create a project structure
-- Export the color palette to a variable
-- Add styles for public classes
-- Add basic styles
-- Save the icons and create a sprite.svg
-- Advanteges section
-- How we do section
-
 [Denys Dashkevych](https://github.com/MajorPrestige) (Full Stack Dev)
-
-Hero section
-
-- "Comprehensive preparation for external examinations in English" is the title
-  of the page.
-- The "I want to take a free class" button is an anchor link to the section with
-  the form.
-- Save the main background image in png format. Images can be inserted as
-  content if you plan to add an animated image.
 
 Header section
 
@@ -113,6 +104,23 @@ Header section
   of the layout.
 - The "By phone" button opens a modal window with an order form. Since the
   design of the modal window is not on the layout, this is not a mandatory task.
+
+Hero section
+
+- "Comprehensive preparation for external examinations in English" is the title
+  of the page.
+- The "I want to take a free class" button is an anchor link to the section with
+  the form.
+- Save the main background image in png format. Images can be inserted as
+  content if you plan to add an animated image.
+
+Modal window
+
+- The "Consultation by phone" button opens a modal window with an call-back
+  form.
+- Since the design of the modal window is not on the layout, you can make it in
+  any form.
+- The appearance animation is arbitrary.
 
 [Vyacheslav Ushakov](https://github.com/zerkel1991) (Full Stack Dev)
 
