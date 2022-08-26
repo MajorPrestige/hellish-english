@@ -1,11 +1,11 @@
 {
-  "name": "hell-en",
+  "name": "hell-en-test",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ry6ens.github.io/hell-en",
+  "homepage": "https://majorprestige.github.io/hell-en-test",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hell-en/"
+    "build": "parcel build src/*.html --public-url /hell-en-test/"
   },
   "repository": {
     "type": "git",
