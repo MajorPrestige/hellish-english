@@ -10,8 +10,11 @@ a::before {
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+main {
   overflow-x: hidden;
+}
+
+body {
   color: $bg-main-color;
   background-image: url(../images/hero/bg-tab-mob.png);
   background-repeat: no-repeat;
