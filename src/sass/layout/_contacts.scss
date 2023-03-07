@@ -126,6 +126,9 @@
   letter-spacing: 0.08em;
   transition-property: color, border-color, background-color;
   @extend %transition;
+
+  animation: swing 5000ms infinite 1500ms;
+
   &:hover,
   &:focus {
     color: $main-color;
@@ -158,9 +161,6 @@
   }
 }
 
-
-
-
 .popup-container {
   margin: 0 auto;
   padding-top: 72px;
@@ -169,12 +169,12 @@
   opacity: 1;
   visibility: visible;
   transition: 400ms ease-in;
-  
-  @include mq(tablet){
+
+  @include mq(tablet) {
     padding-top: 38px;
     padding-bottom: 38px;
   }
-  @include mq(desktop){
+  @include mq(desktop) {
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -195,24 +195,73 @@
   line-height: 1.6;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-  @include mq(tablet){
+  @include mq(tablet) {
     font-size: 24px;
   }
-  @include mq(desktop){
+  @include mq(desktop) {
     font-size: 36px;
   }
 }
-.popup__text{
+.popup__text {
   color: $main-color;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  @include mq(tablet){
+  @include mq(tablet) {
     font-size: 24px;
   }
-  @include mq(desktop){
+  @include mq(desktop) {
     font-size: 36px;
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(-1deg);
+  }
+
+  6% {
+    transform: rotate(1deg);
+  }
+
+  12% {
+    transform: rotate(-2deg);
+  }
+
+  18% {
+    transform: rotate(2deg);
+  }
+  24% {
+    transform: rotate(-3deg);
+  }
+
+  30% {
+    transform: rotate(3deg);
+  }
+
+  36% {
+    transform: rotate(-2deg);
+  }
+
+  42% {
+    transform: rotate(2deg);
+  }
+
+  48% {
+    transform: rotate(-1deg);
+  }
+
+  54% {
+    transform: rotate(1deg);
+  }
+
+  60% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(0);
   }
 }
