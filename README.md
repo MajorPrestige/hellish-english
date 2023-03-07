@@ -97,13 +97,14 @@ Header section
 
 - In the header of the site there is a logo, a navigation menu and a button
   "Consultation by phone".
-- On mobile and tablet versions, the navigation menu is displayed as a pop-up
+- On mobile and tablet versions, the navigation menu is displayed as a      pop-up
   element. The appearance animation is arbitrary. The mobile menu is fixed,
   width and height cover the entire screen area (viewport).
 - The menu is implemented with anchor links that lead to the relevant sections
   of the layout.
 - The "By phone" button opens a modal window with an order form. Since the
   design of the modal window is not on the layout, this is not a mandatory task.
+- Animated all landing page.
 
 Hero section
 
