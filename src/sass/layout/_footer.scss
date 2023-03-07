@@ -133,6 +133,8 @@
   font-size: 40px;
   color: #b9b9b9;
   transition-property: color;
+  cursor: pointer;
+
   @extend %transition;
   @include mq(tablet) {
     bottom: 30px;
