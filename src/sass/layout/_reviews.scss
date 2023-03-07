@@ -35,8 +35,8 @@
   cursor: pointer;
 
   @include mq(desktop) {
-      left: 0;
-    }
+    left: 0;
+  }
 }
 
 .slider__list .slick-arrow.slick-next {
@@ -45,8 +45,8 @@
   cursor: pointer;
 
   @include mq(desktop) {
-      right: 0;
-    }
+    right: 0;
+  }
 }
 
 /* Add custom arrows for Bottom Slider */
@@ -85,13 +85,12 @@
 
 /* Mark card selected */
 .slick-current > div > .slider__nav-item > .slider__img > img {
-border-radius: 50%;
-outline-offset: -1px;
-outline: 1px solid ($main-color);
-
+  border-radius: 50%;
+  outline-offset: -1px;
+  outline: 1px solid ($main-color);
 }
 
-.slider__img{
+.slider__img {
   cursor: pointer;
 }
 
@@ -111,7 +110,6 @@ outline: 1px solid ($main-color);
 }
 
 .slider__list {
-
   @include mq(tablet) {
     padding: 40px 40px;
 
@@ -245,7 +243,7 @@ outline: 1px solid ($main-color);
 
   text-align: center;
 
-  color: #3D3D3D;
+  color: #3d3d3d;
 
   @include mq(tablet) {
     text-align: left;
@@ -282,7 +280,3 @@ outline: 1px solid ($main-color);
   display: inline-block;
   text-align: center;
 }
-
-
-
-
