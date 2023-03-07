@@ -14,8 +14,8 @@ function switchModule() {
 
 popupToggle.addEventListener('click', event => {
   event.preventDefault();
-  formPhone.value = 'done';
-  formName.value = 'done';
+  formPhone.value = 'Successful';
+  formName.value = 'Successful';
   formPhone.style.borderColor = 'green';
   formName.style.borderColor = 'green';
   switchModule();
